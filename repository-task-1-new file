@@ -42,7 +42,7 @@
         5- git merge <branch-name> (to merge the branch to main branch)
         ----------------------------------------------------------------------
 
-        *----------( to copy code from github to local machine)--------
+        *----------( to clone code from github to local machine)--------
  1- copy url from github (contyro+c)
  2- open new window in vscodes
  3- press (control+shift+p)
