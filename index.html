@@ -30,34 +30,55 @@
         (type command clear in terminal to clear the terminal)
         1- git branch <branch-name>
             2- git checkout <branch-name>
-                3- git push origin <branch-name> (to push the branch to github)
-                    4- git checkout -b <branch-name> (to create and move to new branch)
+                3- git checkout -b <branch-name> (to create and move to new branch)
+                    4- git push origin <branch-name> (to push the branch to github)
                         5- git merge <branch-name> (to merge the branch to main branch)
+                            6- git checkout main (to move to main branch)
+                            7- git merge <branch-name> (to merge the branch to main branch)
+                                8- git push origin main (to push the main branch to github)
 
-                            *----------( to copy code from github to local machine)--------
-                            1- copy url from github (contyro+c)
-                            2- open new window in vscodes
-                            3- press (control+shift+p)
-                            4- write (Git: Clone)
-                            5- paste url (contro+v) press enter
-                            6- select folder where you want to save the projest
-                            OR
-                            1- copy url of repository from github (control+c)
-                            2- open a new folder in VScode
-                            3- type git clone then press (contro+v) to paste url in the terminal.
-                            ---------------------------------------------------------
-                            *-----(cntrol+c) to copy and (contro+v) to paste
-                            -------------------------------------------
+                                *-------(to update latest changes in your local machine)-------
+                                1- git pull origin main (to pull latest changes from github to local machine)
+                                2- git pull origin <branch-name> (to pull latest changes from github to local machine)
+                                    3- git fetch origin (to fetch latest changes from github to local machine)
+                                    4- git merge origin/main (to merge latest changes from github to local machine)
+                                    5- git merge origin/<branch-name> (to merge latest changes from github to local
+                                        machine)
 
-                            *----------(steps to create a new repository and link it to local project)--------
-                            1- After creating a new folder and a file in (index.html)
-                            2- Press (shift+1 enter). make sure to save file in vscodes.
-                            3- then go to github and create a new repository and
-                            4- copy the url of the repository and
-                            paste it in the second command in the terminal of vscode.
-                            ----------------------------------------------------------
-                            https://github.com/gim1203-hue/Repository-task-1.git
-                            -------------------------------------------
+                                        *-------(to delete a branch)-------
+                                        1- git branch -d <branch-name> (to delete a branch locally)
+                                            2- git push origin --delete <branch-name> (to delete a branch from github)
+                                                3- git push origin <branch-name> (to push the branch to github)
+                                                    4- git checkout -b <branch-name> (to create and move to new branch)
+                                                        5- git merge <branch-name> (to merge the branch to main branch)
+
+                                                            *----------( to copy code from github to local
+                                                            machine)--------
+                                                            1- copy url from github (contyro+c)
+                                                            2- open new window in vscodes
+                                                            3- press (control+shift+p)
+                                                            4- write (Git: Clone)
+                                                            5- paste url (contro+v) press enter
+                                                            6- select folder where you want to save the projest
+                                                            OR
+                                                            1- copy url of repository from github (control+c)
+                                                            2- open a new folder in VScode
+                                                            3- type git clone then press (contro+v) to paste url in the
+                                                            terminal.
+                                                            ---------------------------------------------------------
+                                                            *-----(cntrol+c) to copy and (contro+v) to paste
+                                                            -------------------------------------------
+
+                                                            *----------(steps to create a new repository and link it to
+                                                            local project)--------
+                                                            1- After creating a new folder and a file in (index.html)
+                                                            2- Press (shift+1 enter). make sure to save file in vscodes.
+                                                            3- then go to github and create a new repository and
+                                                            4- copy the url of the repository and
+                                                            paste it in the second command in the terminal of vscode.
+                                                            ----------------------------------------------------------
+                                                            https://github.com/gim1203-hue/Repository-task-1.git
+                                                            -------------------------------------------
 
 
 </body>
