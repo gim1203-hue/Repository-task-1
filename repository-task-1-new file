@@ -20,10 +20,10 @@
         (type command clear in terminal to clear the terminal)
         1- git branch <branch-name>
         2- git checkout <branch-name>
-        3- git checkout -b <branch-name> (to create and move to new branch)
-        4- git push origin <branch-name> (to push the branch to github)
-        5- git merge <branch-name> (to merge the branch to main branch)
-        6- git merge <branch-name> (to merge the branch to main branch)
+        3- git push origin (name of branch)
+        4- git add .
+        5- git commit -m "add (file name)"
+        6- git push -u origin (file name)
         --------------------------------------------------------------------
         
         *-------(to update latest changes in your local machine)------
