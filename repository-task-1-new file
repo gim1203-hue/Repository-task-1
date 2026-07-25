@@ -61,6 +61,13 @@
 3- git merege branch name (which branch you want merged)
 4- git push 
 --------------------------------------------------------------------
+
+-------------to merge brach using rebase------------
+1- git branch (to see which brach is active)
+2- git checkout branch name (to select which brach to merge to)
+3- git rebase branch name (which branch you want merged)
+4- git push
+--------------------------------------------------------------
 *-----(cntrol+c) to copy and (contro+v) to paste-------------------------------------------
 
 *----------(steps to create a new repository and link it to local project)--------
